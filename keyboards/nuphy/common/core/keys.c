@@ -210,6 +210,12 @@ bool process_record_nuphy(uint16_t keycode, keyrecord_t *record) {
             }
             return false;
 
+        case SIDE_HUD:
+            if (record->event.pressed) {
+                side_color_control(0);
+            }
+            return false;
+
         case SIDE_SPI:
             if (record->event.pressed) {
                 side_speed_control(1);

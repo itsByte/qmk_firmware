@@ -28,6 +28,7 @@ enum custom_keycodes {
     SIDE_VAD,
     SIDE_MOD,
     SIDE_HUI,
+    SIDE_HUD,
     SIDE_SPI,
     SIDE_SPD,
 
